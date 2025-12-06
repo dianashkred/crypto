@@ -1,32 +1,19 @@
 {
-  "name": "my-erc20-token",
+  "name": "multi-sig-wallet",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@nomicfoundation/hardhat-ethers": "^4.0.3",
-    "@nomicfoundation/hardhat-ignition": "^3.0.5",
-    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.1",
-    "@types/chai": "^4.3.20",
-    "@types/chai-as-promised": "^8.0.2",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.19.1",
-    "chai": "^5.3.3",
-    "ethers": "^6.15.0",
-    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
-    "hardhat": "^3.0.15",
-    "mocha": "^11.7.5",
-    "typescript": "~5.8.0"
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.1",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "^4.5.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.27.1"
   },
-  "type": "module",
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
-    "chai-as-promised": "^8.0.2"
+    "@openzeppelin/contracts-upgradeable": "^5.4.0"
   }
 }
