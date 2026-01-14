@@ -1,0 +1,11 @@
+{
+  "name": "upgradeable-token",
+  "version": "1.0.0",
+  "devDependencies": {
+    "hardhat": "^2.22.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0",
+    "dotenv": "^17.2.3"
+  }
+}
